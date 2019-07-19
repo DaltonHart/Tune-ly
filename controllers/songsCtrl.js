@@ -51,3 +51,6 @@ router.post('/:cityId', (req, res) => {
     res.json({ status: 200, message: 'success' });
   });
 });
+
+
+module.exports = router;

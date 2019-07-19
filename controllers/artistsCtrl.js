@@ -92,3 +92,6 @@ router.post('/:artistId/songs', (req, res) => {
     res.json({ status: 200, data: artistSongs });
   });
 });
+
+
+module.exports = router;
